@@ -12,13 +12,16 @@ public  String toSvg(){
             "<circle r=\"45\" cx=\"" +x+ "\" cy=\""+ y +"\" fill=\"red\" />";
         return napis;
 }
-public Point translate(){
+public void translate(){
         double dx= 2;
         double dy=4;
         double nx =x + dx;
         double ny =x + dy;
     System.out.println(nx);
     System.out.println(ny);
-    return null;
+    }
+    public class Segment{
+        public double x =point.x;
+        public double y =point.y;
     }
 }
