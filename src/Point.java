@@ -15,10 +15,9 @@ public  String toSvg(){
 public void translate(){
         double dx= 2;
         double dy=4;
-        double nx =x + dx;
-        double ny =x + dy;
-    System.out.println(nx);
-    System.out.println(ny);
+       x += dx;
+        y += dy;
+
     }
     public class Segment{
         public double x =point.x;
