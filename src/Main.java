@@ -15,5 +15,7 @@ public class Main {
         System.out.println(point.x + " " + point.y);
         System.out.println(point.toString());
         System.out.println(point.toSvg());
+        System.out.println(point.translate());
     }
+
 }
