@@ -9,13 +9,14 @@ public class Main {
 //            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
 //            System.out.println("i = " + i);
 //        }
-        Point point = new Point();
-        System.out.println(point.x + " " + point.y);
-        point.x =7;
-        System.out.println(point.x + " " + point.y);
+        Point point = new Point( 5,  3);
+        System.out.println(point.getX() + " " + point.getY());
+//        point.x =7;
+        point.setX(7);
+        System.out.println(point.getX() + " " + point.getY());
         System.out.println(point.toString());
         System.out.println(point.toSvg());
-        System.out.println(point.translate());
+//        System.out.println(point.translate());
     }
 
 }
